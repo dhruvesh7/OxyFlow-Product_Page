@@ -1,7 +1,7 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { motion, AnimatePresence, useReducedMotion } from "framer-motion";
+import { motion, AnimatePresence, useReducedMotion, type TargetAndTransition } from "framer-motion";
 import Image from "next/image";
 
 const SCENE_MS = 1500; // hospital scene plays, then the logo reveals
@@ -46,7 +46,7 @@ export function SplashScreen() {
   }, [show]);
 
   // Only loop animations when the user hasn't asked for reduced motion
-  const loop = (a: Record<string, unknown>) => (reduceMotion ? undefined : a);
+  const loop = (a: TargetAndTransition) => (reduceMotion ? undefined : a);
   const rep = { repeat: Infinity, ease: "easeInOut" as const };
 
   return (
