@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" fill="none">
+  <rect width="1200" height="800" fill="#f8fafc"/>
+  <text x="600" y="40" fill="#1A365D" font-family="system-ui,sans-serif" font-size="24" font-weight="700" text-anchor="middle">OxyFlow Overview</text>
+  <rect x="40" y="70" width="540" height="340" rx="12" fill="#eff6ff" stroke="#bfdbfe" stroke-width="2"/>
+  <text x="60" y="105" fill="#1A365D" font-family="system-ui,sans-serif" font-size="16" font-weight="700">The Problem  How It Works Today</text>
+  <text x="60" y="140" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Oxygen supplied from hospital source to patient</text>
+  <text x="60" y="168" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Staff manually set required flow rate</text>
+  <text x="60" y="196" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Patient receives oxygen through a mask</text>
+  <text x="60" y="224" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Staff periodically check patient and setup</text>
+  <rect x="40" y="430" width="540" height="340" rx="12" fill="#fef2f2" stroke="#fecaca" stroke-width="2"/>
+  <text x="60" y="465" fill="#991b1b" font-family="system-ui,sans-serif" font-size="16" font-weight="700">What Makes It Challenging</text>
+  <text x="60" y="500" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Manual periodic patient and setup checks</text>
+  <text x="60" y="528" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Hard to detect mask removal or disconnection</text>
+  <text x="60" y="556" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Decentralized oxygen usage records</text>
+  <rect x="620" y="70" width="540" height="340" rx="12" fill="#f0fdf4" stroke="#bbf7d0" stroke-width="2"/>
+  <text x="640" y="105" fill="#166534" font-family="system-ui,sans-serif" font-size="16" font-weight="700">OxyFlow MVP Solution</text>
+  <text x="640" y="140" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Cloud monitoring with flow &amp; humidity sensors</text>
+  <text x="640" y="168" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Automated rules for unintended flow detection</text>
+  <text x="640" y="196" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Alerts to clinical staff &amp; administration</text>
+  <text x="640" y="224" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Digital dashboard with real-time status &amp; history</text>
+  <rect x="620" y="430" width="540" height="340" rx="12" fill="#fefce8" stroke="#fde68a" stroke-width="2"/>
+  <text x="640" y="465" fill="#854d0e" font-family="system-ui,sans-serif" font-size="16" font-weight="700">MVP Impact</text>
+  <text x="640" y="500" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Real-time oxygen flow &amp; mask condition per patient</text>
+  <text x="640" y="528" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Immediate alerts for zero flow or mask issues</text>
+  <text x="640" y="556" fill="#475569" font-family="system-ui,sans-serif" font-size="13">" Centralized digital records for decision support</text>
+</svg>
